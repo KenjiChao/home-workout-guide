@@ -1,0 +1,260 @@
+[
+ {
+  "zh": "徒手深蹲",
+  "en": "Bodyweight Squat",
+  "group": "下肢",
+  "cue": "膝蓋朝腳尖，蹲到大腿平行地面，全下肢基礎動作。",
+  "imgs": [
+   "img/00_Bodyweight_Squat_0.jpg",
+   "img/00_Bodyweight_Squat_1.jpg"
+  ],
+  "primary": [
+   "quadriceps"
+  ],
+  "instructions": [
+   "Stand with your feet shoulder width apart. You can place your hands behind your head. This will be your starting position.",
+   "Begin the movement by flexing your knees and hips, sitting back with your hips.",
+   "Continue down to full depth if you are able,and quickly reverse the motion until you return to the starting position. As you squat, keep your head and chest up and push your knees out."
+  ]
+ },
+ {
+  "zh": "弓箭步",
+  "en": "Bodyweight Walking Lunge",
+  "group": "下肢",
+  "cue": "前後跨步下蹲，單腳負荷兼練平衡。",
+  "imgs": [
+   "img/01_Bodyweight_Walking_Lunge_0.jpg",
+   "img/01_Bodyweight_Walking_Lunge_1.jpg"
+  ],
+  "primary": [
+   "quadriceps"
+  ],
+  "instructions": [
+   "Begin standing with your feet shoulder width apart and your hands on your hips.",
+   "Step forward with one leg, flexing the knees to drop your hips. Descend until your rear knee nearly touches the ground. Your posture should remain upright, and your front knee should stay above the front foot.",
+   "Drive through the heel of your lead foot and extend both knees to raise yourself back up.",
+   "Step forward with your rear foot, repeating the lunge on the opposite leg."
+  ]
+ },
+ {
+  "zh": "保加利亞分腿蹲",
+  "en": "Split Squats",
+  "group": "下肢",
+  "cue": "後腳墊高，單腿強度最高的徒手動作。",
+  "imgs": [
+   "img/02_Split_Squats_0.jpg",
+   "img/02_Split_Squats_1.jpg"
+  ],
+  "primary": [
+   "hamstrings"
+  ],
+  "instructions": [
+   "Being in a standing position. Jump into a split leg position, with one leg forward and one leg back, flexing the knees and lowering your hips slightly as you do so.",
+   "As you descend, immediately reverse direction, standing back up and jumping, reversing the position of your legs. Repeat 5-10 times on each leg."
+  ]
+ },
+ {
+  "zh": "單腳臀橋",
+  "en": "Single Leg Glute Bridge",
+  "group": "臀／後鏈",
+  "cue": "推臀抬髖，主攻臀大肌與後側鏈。",
+  "imgs": [
+   "img/03_Single_Leg_Glute_Bridge_0.jpg",
+   "img/03_Single_Leg_Glute_Bridge_1.jpg"
+  ],
+  "primary": [
+   "glutes"
+  ],
+  "instructions": [
+   "Lay on the floor with your feet flat and knees bent.",
+   "Raise one leg off of the ground, pulling the knee to your chest. This will be your starting position.",
+   "Execute the movement by driving through the heel, extending your hip upward and raising your glutes off of the ground.",
+   "Extend as far as possible, pause and then return to the starting position."
+  ]
+ },
+ {
+  "zh": "彈力帶提踵",
+  "en": "Calf Raises - With Bands",
+  "group": "小腿",
+  "cue": "踩帶提踵，站高處加大活動範圍練小腿。",
+  "imgs": [
+   "img/04_Calf_Raises_-_With_Bands_0.jpg",
+   "img/04_Calf_Raises_-_With_Bands_1.jpg"
+  ],
+  "primary": [
+   "calves"
+  ],
+  "instructions": [
+   "Grab an exercise band and stand on it with your toes making sure that the length of the band between the foot and the arms is the same for both sides.",
+   "While holding the handles of the band, raise the arms to the side of your head as if you were getting ready to perform a shoulder press. The palms should be facing forward with the elbows bent and to the sides. This movement will create tension on the band. This will be your starting position.",
+   "Keeping the hands by your shoulder, stand up on your toes as you exhale and contract the calves hard at the top of the movement.",
+   "After a one second contraction, slowly go back down to the starting position.",
+   "Repeat for the recommended amount of repetitions."
+  ]
+ },
+ {
+  "zh": "伏地挺身",
+  "en": "Pushups",
+  "group": "上肢推（胸/肩/三頭）",
+  "cue": "身體打直成一線，胸口下沉貼近地面。",
+  "imgs": [
+   "img/05_Pushups_0.jpg",
+   "img/05_Pushups_1.jpg"
+  ],
+  "primary": [
+   "chest"
+  ],
+  "instructions": [
+   "Lie on the floor face down and place your hands about 36 inches apart while holding your torso up at arms length.",
+   "Next, lower yourself downward until your chest almost touches the floor as you inhale.",
+   "Now breathe out and press your upper body back up to the starting position while squeezing your chest.",
+   "After a brief pause at the top contracted position, you can begin to lower yourself downward again for as many repetitions as needed."
+  ]
+ },
+ {
+  "zh": "彈力帶肩推",
+  "en": "Shoulder Press - With Bands",
+  "group": "肩",
+  "cue": "踩住帶子往頭頂推，主攻三角肌。",
+  "imgs": [
+   "img/06_Shoulder_Press_-_With_Bands_0.jpg",
+   "img/06_Shoulder_Press_-_With_Bands_1.jpg"
+  ],
+  "primary": [
+   "shoulders"
+  ],
+  "instructions": [
+   "To begin, stand on an exercise band so that tension begins at arm's length. Grasp the handles and lift them so that the hands are at shoulder height at each side.",
+   "Rotate the wrists so that the palms of your hands are facing forward. Your elbows should be bent, with the upper arms and forearms in line to the torso. This is your starting position.",
+   "As you exhale, lift the handles up until your arms are fully extended overhead."
+  ]
+ },
+ {
+  "zh": "椅子撐體",
+  "en": "Bench Dips",
+  "group": "三頭",
+  "cue": "手撐椅子屈肘下沉，練三頭肌。",
+  "imgs": [
+   "img/07_Bench_Dips_0.jpg",
+   "img/07_Bench_Dips_1.jpg"
+  ],
+  "primary": [
+   "triceps"
+  ],
+  "instructions": [
+   "For this exercise you will need to place a bench behind your back. With the bench perpendicular to your body, and while looking away from it, hold on to the bench on its edge with the hands fully extended, separated at shoulder width. The legs will be extended forward, bent at the waist and perpendicular to your torso. This will be your starting position.",
+   "Slowly lower your body as you inhale by bending at the elbows until you lower yourself far enough to where there is an angle slightly smaller than 90 degrees between the upper arm and the forearm. Tip: Keep the elbows as close as possible throughout the movement. Forearms should always be pointing down.",
+   "Using your triceps to bring your torso up again, lift yourself back to the starting position.",
+   "Repeat for the recommended amount of repetitions."
+  ]
+ },
+ {
+  "zh": "反向划船",
+  "en": "Inverted Row",
+  "group": "上肢拉（背）",
+  "cue": "身體吊在桌／桿下往上拉，徒手練背首選。",
+  "imgs": [
+   "img/08_Inverted_Row_0.jpg",
+   "img/08_Inverted_Row_1.jpg"
+  ],
+  "primary": [
+   "middle back"
+  ],
+  "instructions": [
+   "Position a bar in a rack to about waist height. You can also use a smith machine.",
+   "Take a wider than shoulder width grip on the bar and position yourself hanging underneath the bar. Your body should be straight with your heels on the ground with your arms fully extended. This will be your starting position.",
+   "Begin by flexing the elbow, pulling your chest towards the bar. Retract your shoulder blades as you perform the movement.",
+   "Pause at the top of the motion, and return yourself to the start position.",
+   "Repeat for the desired number of repetitions."
+  ]
+ },
+ {
+  "zh": "彈力帶直立划船",
+  "en": "Upright Row - With Bands",
+  "group": "背／斜方",
+  "cue": "踩帶往上提到胸口，練上背與斜方肌。",
+  "imgs": [
+   "img/09_Upright_Row_-_With_Bands_0.jpg",
+   "img/09_Upright_Row_-_With_Bands_1.jpg"
+  ],
+  "primary": [
+   "traps"
+  ],
+  "instructions": [
+   "To begin, stand on an exercise band so that tension begins at arm's length. Grasp the handles using a pronated (palms facing your thighs) grip that is slightly less than shoulder width. The handles should be resting on top of your thighs. Your arms should be extended with a slight bend at the elbows and your back should be straight. This will be your starting position.",
+   "Use your side shoulders to lift the handles as you exhale. The handles should be close to the body as you move them up. Continue to lift the handles until they nearly touches your chin. Tip: Your elbows should drive the motion. As you lift the handles, your elbows should always be higher than your forearms. Also, keep your torso stationary and pause for a second at the top of the movement.",
+   "Lower the handles back down slowly to the starting position. Inhale as you perform this portion of the movement.",
+   "Repeat for the recommended amount of repetitions."
+  ]
+ },
+ {
+  "zh": "棒式",
+  "en": "Plank",
+  "group": "核心",
+  "cue": "前臂撐地身體打直，撐 30–60 秒穩定核心。",
+  "imgs": [
+   "img/10_Plank_0.jpg",
+   "img/10_Plank_1.jpg"
+  ],
+  "primary": [
+   "abdominals"
+  ],
+  "instructions": [
+   "Get into a prone position on the floor, supporting your weight on your toes and your forearms. Your arms are bent and directly below the shoulder.",
+   "Keep your body straight at all times, and hold this position as long as possible. To increase difficulty, an arm or leg can be raised."
+  ]
+ },
+ {
+  "zh": "死蟲",
+  "en": "Dead Bug",
+  "group": "核心",
+  "cue": "仰躺對側手腳延伸，練深層核心與協調。",
+  "imgs": [
+   "img/11_Dead_Bug_0.jpg",
+   "img/11_Dead_Bug_1.jpg"
+  ],
+  "primary": [
+   "abdominals"
+  ],
+  "instructions": [
+   "Begin lying on your back with your hands extended above you toward the ceiling.",
+   "Bring your feet, knees, and hips up to 90 degrees.",
+   "Exhale hard to bring your ribcage down and flatten your back onto the floor, rotating your pelvis up and squeezing your glutes. Hold this position throughout the movement. This will be your starting position.",
+   "Initiate the exercise by extending one leg, straightening the knee and hip to bring the leg just above the ground.",
+   "Maintain the position of your lumbar and pelvis as you perform the movement, as your back is going to want to arch.",
+   "Stay tight and return the working leg to the starting position.",
+   "Repeat on the opposite side, alternating until the set is complete."
+  ]
+ },
+ {
+  "zh": "登山者",
+  "en": "Mountain Climbers",
+  "group": "核心／心肺",
+  "cue": "撐姿交替收膝，核心加一點心肺。",
+  "imgs": [
+   "img/12_Mountain_Climbers_0.jpg",
+   "img/12_Mountain_Climbers_1.jpg"
+  ],
+  "primary": [
+   "quadriceps"
+  ],
+  "instructions": [
+   "Begin in a pushup position, with your weight supported by your hands and toes. Flexing the knee and hip, bring one leg until the knee is approximately under the hip. This will be your starting position.",
+   "Explosively reverse the positions of your legs, extending the bent leg until the leg is straight and supported by the toe, and bringing the other foot up with the hip and knee flexed. Repeat in an alternating fashion for 20-30 seconds."
+  ]
+ },
+ {
+  "zh": "側棒式",
+  "en": "Side Bridge",
+  "group": "核心（腹斜）",
+  "cue": "側身單肘撐地，練腹斜肌與側線穩定。",
+  "imgs": [
+   "img/13_Side_Bridge_0.jpg",
+   "img/13_Side_Bridge_1.jpg"
+  ],
+  "primary": [
+   "abdominals"
+  ],
+  "instructions": []
+ }
+]
