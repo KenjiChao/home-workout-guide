@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>我的居家全身訓練 · 圖解</title>
+<title>Kenji 的居家健身菜單</title>
 <style>
   :root{--bg:#1a1512;--bg2:#221b16;--card:#2a211b;--line:#3a2e24;
     --amber:#E0A144;--amber2:#b9863b;--ink:#f2e9dd;--ink2:#b9a891;--ink3:#8a7862;}
@@ -17,7 +17,7 @@
   header .kicker{color:var(--amber);font-size:13px;letter-spacing:3px;font-weight:700;}
   header h1{font-size:26px;margin:6px 0 10px;letter-spacing:1px;}
   header p{color:var(--ink2);font-size:14px;}
-  main{max-width:720px;margin:0 auto;padding:0 14px;}
+  main{max-width:720px;margin:0 auto;padding:0 14px;counter-reset:ex;}
   .howto{background:var(--bg2);border:1px solid var(--line);border-radius:14px;
     padding:16px 18px;margin-top:22px;}
   .howto h2{font-size:15px;color:var(--amber);margin-bottom:8px;letter-spacing:1px;}
@@ -38,6 +38,7 @@
   .meta{padding:13px 15px 16px;}
   .titlerow{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;}
   .num{color:var(--amber2);font-size:13px;font-weight:700;font-variant-numeric:tabular-nums;}
+  .num::before{counter-increment:ex;content:counter(ex,decimal-leading-zero);}
   .meta h3{font-size:19px;letter-spacing:.5px;}
   .reps{margin-left:auto;color:var(--amber);font-size:13px;font-weight:700;
     border:1px solid var(--line);border-radius:999px;padding:3px 10px;white-space:nowrap;}
@@ -50,8 +51,8 @@
 <body>
   <header>
     <div class="kicker">居家 · 無器材 / 彈力帶</div>
-    <h1>我的居家全身訓練</h1>
-    <p>15 個動作，從暖身、爆發力、力量到收操，一次練到全身。每張都是「起始 → 發力」對照。</p>
+    <h1>Kenji 的居家健身菜單</h1>
+    <p>16 個動作，從暖身、爆發力、力量到收操，一次練到全身。每張都是「起始 → 發力」對照。</p>
   </header>
   <main>
     <div class="howto">
@@ -74,7 +75,7 @@
           <figure><img src="imgx/00_cat_1.jpg" alt="貓式 發力"><figcaption>發力／終點</figcaption></figure>
         </div>
         <div class="meta">
-          <div class="titlerow"><span class="num">01</span><h3>貓式</h3><span class="reps">8–10 次來回</span></div>
+          <div class="titlerow"><span class="num"></span><h3>貓式</h3><span class="reps">8–10 次來回</span></div>
           <p class="en">Cat-Cow</p>
           <p class="cue">跪姿四足，吐氣拱背低頭、吸氣塌腰抬頭，動態來回喚醒脊椎。</p>
         </div>
@@ -86,7 +87,7 @@
           <figure><img src="imgx/01_9090_1.jpg" alt="髖關節 90/90 發力"><figcaption>發力／終點</figcaption></figure>
         </div>
         <div class="meta">
-          <div class="titlerow"><span class="num">02</span><h3>髖關節 90/90</h3><span class="reps">每邊 8–10 次轉換</span></div>
+          <div class="titlerow"><span class="num"></span><h3>髖關節 90/90</h3><span class="reps">每邊 8–10 次轉換</span></div>
           <p class="en">Hip 90/90</p>
           <p class="cue">坐地兩腿都彎 90 度，左右轉換讓膝蓋貼地，打開髖關節。</p>
         </div>
@@ -103,7 +104,7 @@
           <figure><img src="imgx/02_jump_1.jpg" alt="跳蹲 發力"><figcaption>發力／終點</figcaption></figure>
         </div>
         <div class="meta">
-          <div class="titlerow"><span class="num">03</span><h3>跳蹲</h3><span class="reps">3 組 × 5 下</span></div>
+          <div class="titlerow"><span class="num"></span><h3>跳蹲</h3><span class="reps">3 組 × 5 下</span></div>
           <p class="en">Jump Squat</p>
           <p class="cue">蹲下後爆發跳起，落地屈膝緩衝。體力最新鮮時先做，重質不重量。</p>
         </div>
@@ -120,7 +121,7 @@
           <figure><img src="imgx/03_squat_1.jpg" alt="一般深蹲 發力"><figcaption>發力／終點</figcaption></figure>
         </div>
         <div class="meta">
-          <div class="titlerow"><span class="num">04</span><h3>一般深蹲</h3><span class="reps">3 組 × 12–15 下</span></div>
+          <div class="titlerow"><span class="num"></span><h3>一般深蹲</h3><span class="reps">3 組 × 12–15 下</span></div>
           <p class="en">Bodyweight Squat</p>
           <p class="cue">膝蓋朝腳尖，蹲到大腿平行地面，控制下放。</p>
         </div>
@@ -132,7 +133,7 @@
           <figure><img src="imgx/04_lunge_1.jpg" alt="弓箭步分腿蹲 發力"><figcaption>發力／終點</figcaption></figure>
         </div>
         <div class="meta">
-          <div class="titlerow"><span class="num">05</span><h3>弓箭步分腿蹲</h3><span class="reps">每腿 3 組 × 10 下</span></div>
+          <div class="titlerow"><span class="num"></span><h3>弓箭步分腿蹲</h3><span class="reps">每腿 3 組 × 10 下</span></div>
           <p class="en">Lunge</p>
           <p class="cue">向前跨步下蹲至後膝近地，單腳負荷兼練平衡與變向。</p>
         </div>
@@ -144,9 +145,21 @@
           <figure><img src="imgx/05_bridge_1.jpg" alt="臀橋 發力"><figcaption>發力／終點</figcaption></figure>
         </div>
         <div class="meta">
-          <div class="titlerow"><span class="num">06</span><h3>臀橋</h3><span class="reps">3 組 × 15 下</span></div>
+          <div class="titlerow"><span class="num"></span><h3>臀橋</h3><span class="reps">3 組 × 15 下</span></div>
           <p class="en">Glute Bridge</p>
           <p class="cue">仰躺推臀抬髖至身體成直線，頂端夾臀一秒，練臀與後鏈。</p>
+        </div>
+      </article>
+      <article class="card">
+        <div class="frames">
+          <figure><img src="imgx/15_sldl_0.jpg" alt="單腳羅馬尼亞硬舉 起始"><figcaption>起始</figcaption></figure>
+          <span class="arrow">→</span>
+          <figure><img src="imgx/15_sldl_1.jpg" alt="單腳羅馬尼亞硬舉 發力"><figcaption>發力／終點</figcaption></figure>
+        </div>
+        <div class="meta">
+          <div class="titlerow"><span class="num"></span><h3>單腳羅馬尼亞硬舉</h3><span class="reps">每腿 3 組 × 10 下</span></div>
+          <p class="en">Single-leg RDL</p>
+          <p class="cue">單腳站，另一腳往後伸、上身前傾成水平，再用臀拉回站直。練臀＋下背＋單腳平衡，補足屈髖模式。可先扶牆，站穩再放手。</p>
         </div>
       </article>
       </div>
@@ -161,7 +174,7 @@
           <figure><img src="imgx/06_pushup_1.jpg" alt="伏地挺身 發力"><figcaption>發力／終點</figcaption></figure>
         </div>
         <div class="meta">
-          <div class="titlerow"><span class="num">07</span><h3>伏地挺身</h3><span class="reps">3 組 × 力竭</span></div>
+          <div class="titlerow"><span class="num"></span><h3>伏地挺身</h3><span class="reps">3 組 × 力竭</span></div>
           <p class="en">Push-up</p>
           <p class="cue">身體打直成一線，胸口下沉貼近地面再推起。太難用跪姿。</p>
         </div>
@@ -178,7 +191,7 @@
           <figure><img src="imgx/07_pullup_1.jpg" alt="拉單槓 發力"><figcaption>發力／終點</figcaption></figure>
         </div>
         <div class="meta">
-          <div class="titlerow"><span class="num">08</span><h3>拉單槓</h3><span class="reps">3 組 × 力竭</span></div>
+          <div class="titlerow"><span class="num"></span><h3>拉單槓</h3><span class="reps">3 組 × 力竭</span></div>
           <p class="en">Pull-up</p>
           <p class="cue">正握吊單槓，肩胛後收把身體拉到下巴過槓，練闊背與二頭。</p>
         </div>
@@ -190,7 +203,7 @@
           <figure><img src="imgx/08_pullapart_1.jpg" alt="彈力帶後拉 發力"><figcaption>發力／終點</figcaption></figure>
         </div>
         <div class="meta">
-          <div class="titlerow"><span class="num">09</span><h3>彈力帶後拉</h3><span class="reps">3 組 × 15 下</span></div>
+          <div class="titlerow"><span class="num"></span><h3>彈力帶後拉</h3><span class="reps">3 組 × 15 下</span></div>
           <p class="en">Band Pull-apart</p>
           <p class="cue">雙手握帶於胸前，肩胛後夾往兩側拉開，練上背、練寬。</p>
         </div>
@@ -207,7 +220,7 @@
           <figure><img src="imgx/09_front_1.jpg" alt="彈力帶前平舉 發力"><figcaption>發力／終點</figcaption></figure>
         </div>
         <div class="meta">
-          <div class="titlerow"><span class="num">10</span><h3>彈力帶前平舉</h3><span class="reps">每邊 3 組 × 12 下</span></div>
+          <div class="titlerow"><span class="num"></span><h3>彈力帶前平舉</h3><span class="reps">每邊 3 組 × 12 下</span></div>
           <p class="en">Front Raise</p>
           <p class="cue">腳踩帶，手臂打直從身側往前舉到與肩同高，練前三角。左右各做。</p>
         </div>
@@ -219,7 +232,7 @@
           <figure><img src="imgx/10_lateral_1.jpg" alt="彈力帶側平舉 發力"><figcaption>發力／終點</figcaption></figure>
         </div>
         <div class="meta">
-          <div class="titlerow"><span class="num">11</span><h3>彈力帶側平舉</h3><span class="reps">3 組 × 15 下</span></div>
+          <div class="titlerow"><span class="num"></span><h3>彈力帶側平舉</h3><span class="reps">3 組 × 15 下</span></div>
           <p class="en">Lateral Raise</p>
           <p class="cue">腳踩帶，手臂打直往兩側平舉到與肩同高，練中三角。</p>
         </div>
@@ -231,7 +244,7 @@
           <figure><img src="imgx/11_reardelt_1.jpg" alt="彈力帶後三角提拉 發力"><figcaption>發力／終點</figcaption></figure>
         </div>
         <div class="meta">
-          <div class="titlerow"><span class="num">12</span><h3>彈力帶後三角提拉</h3><span class="reps">3 組 × 15 下</span></div>
+          <div class="titlerow"><span class="num"></span><h3>彈力帶後三角提拉</h3><span class="reps">3 組 × 15 下</span></div>
           <p class="en">Rear Delt Fly</p>
           <p class="cue">身體前傾腳踩帶，手從低處往後上方展開，練肩膀後側。</p>
         </div>
@@ -248,7 +261,7 @@
           <figure><img src="imgx/12_plank_1.jpg" alt="棒式 發力"><figcaption>發力／終點</figcaption></figure>
         </div>
         <div class="meta">
-          <div class="titlerow"><span class="num">13</span><h3>棒式</h3><span class="reps">3 組 × 30–45 秒</span></div>
+          <div class="titlerow"><span class="num"></span><h3>棒式</h3><span class="reps">3 組 × 30–45 秒</span></div>
           <p class="en">Plank</p>
           <p class="cue">前臂撐地，身體從頭到腳跟打直，收緊核心別塌腰。</p>
         </div>
@@ -260,7 +273,7 @@
           <figure><img src="imgx/13_sideplank_1.jpg" alt="側棒式 發力"><figcaption>發力／終點</figcaption></figure>
         </div>
         <div class="meta">
-          <div class="titlerow"><span class="num">14</span><h3>側棒式</h3><span class="reps">每邊 3 組 × 20–30 秒</span></div>
+          <div class="titlerow"><span class="num"></span><h3>側棒式</h3><span class="reps">每邊 3 組 × 20–30 秒</span></div>
           <p class="en">Side Plank</p>
           <p class="cue">側身單肘撐地，髖部抬高身體成直線，練腹斜肌與側線。</p>
         </div>
@@ -277,7 +290,7 @@
           <figure><img src="imgx/14_pigeon_1.jpg" alt="鴿式（髖伸展） 發力"><figcaption>發力／終點</figcaption></figure>
         </div>
         <div class="meta">
-          <div class="titlerow"><span class="num">15</span><h3>鴿式（髖伸展）</h3><span class="reps">每邊 30 秒 × 2</span></div>
+          <div class="titlerow"><span class="num"></span><h3>鴿式（髖伸展）</h3><span class="reps">每邊 30 秒 × 2</span></div>
           <p class="en">Pigeon</p>
           <p class="cue">前腳彎、後腳往後直伸、上身前壓，拉臀部深層梨狀肌。收操做、別在訓練前做。</p>
         </div>
