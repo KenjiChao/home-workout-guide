@@ -5,3 +5,5 @@ plan.json
 plan2.json
 figures.py
 genspec.json
+src/
+probe/

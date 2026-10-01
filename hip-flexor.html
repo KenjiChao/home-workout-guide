@@ -47,6 +47,11 @@
     border-left:6px solid var(--amber2);}
     display:flex;gap:0;}
   .warn{font-size:13px;color:var(--ink3);margin-top:10px;}
+  .demo{background:#000;}
+  .demo video{width:100%;display:block;aspect-ratio:16/9;object-fit:cover;background:#111;}
+  .demo .credit{background:var(--bg2);color:var(--ink3);font-size:11.5px;padding:5px 12px;}
+  .demo .credit a{color:var(--ink2);}
+  .tag.no{background:#c0492b;color:#fff;}
   footer{max-width:720px;margin:34px auto 0;padding:18px 20px 0;border-top:1px solid var(--line);
     color:var(--ink3);font-size:12.5px;}
   footer a{color:var(--amber);}
@@ -55,7 +60,7 @@
 <body>
 <header>
   <div class="kicker">久坐 · 骨盆前傾 · 圖解</div>
-  <h1>半跪姿髖屈肌伸展</h1>
+  <h1>髖屈肌伸展：半跪姿＋沙發伸展</h1>
   <p>大腿根部前面那條被坐緊的肌肉，怎麼把它拉開。重點只有一句：<b style="color:var(--amber)">先捲、再夾、才推。</b></p>
 </header>
 <main>
@@ -137,120 +142,29 @@
 
 <!-- 02 -->
 <section>
-  <h2><span class="n">02</span>動作三步</h2>
+  <h2><span class="n">02</span>動作示範</h2>
   <div class="steps">
 
     <div class="card step">
-      <div class="fig">
-        <svg viewBox="0 0 240 310" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system,PingFang TC,sans-serif">
-          <rect x="10" y="296" width="220" height="3" fill="#cdbfa9"/>
-          <rect x="70" y="288" width="44" height="9" rx="4" fill="#cdbfa9"/>
-          <g stroke="#2a211b" stroke-linecap="round" stroke-linejoin="round" fill="none">
-            <line x1="90" y1="288" x2="40" y2="289" stroke-width="10"/>
-            <line x1="40" y1="289" x2="32" y2="296" stroke-width="7"/>
-            <line x1="90" y1="288" x2="92" y2="202" stroke-width="12"/>
-            <line x1="92" y1="202" x2="170" y2="204" stroke-width="12"/>
-            <line x1="170" y1="204" x2="172" y2="290" stroke-width="10"/>
-            <line x1="170" y1="294" x2="196" y2="295" stroke-width="7"/>
-            <line x1="92" y1="202" x2="94" y2="120" stroke-width="15"/>
-            <polyline points="94,130 116,166 140,198" stroke-width="7"/>
-          </g>
-          <circle cx="96" cy="98" r="15" fill="#2a211b"/>
-          <!-- 90 deg marks -->
-          <g stroke="#b4761e" stroke-width="2" fill="none">
-            <polyline points="158,204 158,216 170,216"/>
-            <polyline points="92,214 104,214 104,202" transform="translate(0,62)"/>
-          </g>
-          <text x="186" y="230" font-size="12" font-weight="700" fill="#b4761e">90°</text>
-          <text x="108" y="272" font-size="12" font-weight="700" fill="#b4761e">90°</text>
-          <text x="8" y="270" font-size="11" fill="#6b5a45">膝下墊軟墊</text>
-        </svg>
-      </div>
+      <div class="demo"><video src="clips/half_kneel.mp4" autoplay muted loop playsinline preload="metadata"></video>
+      <div class="credit">真人示範：<a href="https://www.youtube.com/watch?v=fPaF3oro6hE&t=1001s" target="_blank" rel="noopener">E3 Rehab</a>（16:41）</div></div>
       <div class="body">
-        <span class="tag">STEP 1</span><h3>單膝跪地，擺好兩個 90°</h3>
-        <p>要伸展的那側膝蓋跪地，另一隻腳往前踩。<b>前腳膝蓋 90°、後腳膝蓋也 90°</b>，上半身直立，手放前腳大腿上。這時候還沒拉到，正常。</p>
+        <span class="tag">基本版</span><h3>擺位 → 捲＋夾 → 往前推</h3>
+        <ul>
+          <li><b>擺位：</b>要伸展的那側膝蓋跪地（墊軟墊），另一腳往前踩，前後兩個膝蓋都約 90°，上身直立。</li>
+          <li><b>先捲，再夾：</b>尾骨往下、往前捲（骨盆後傾，像把褲子後口袋往下塞），小腹收，夾緊後腳那側屁股。片中臀部閃光那一下就是這步。</li>
+          <li><b>才推：</b>保持捲＋夾，整個人連身體一起往前移幾公分，上身維持垂直。拉扯感應該在<span class="hl">後腳那側大腿根部前面</span>。</li>
+        </ul>
+        <p>做到「捲＋夾」就有感的人，不用再往前推，停在那裡就好。</p>
       </div>
     </div>
 
     <div class="card step">
-      <div class="fig">
-        <svg viewBox="0 0 240 310" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system,PingFang TC,sans-serif">
-          <defs>
-            <marker id="ab" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#b4761e"/></marker>
-          </defs>
-          <rect x="10" y="296" width="220" height="3" fill="#cdbfa9"/>
-          <rect x="70" y="288" width="44" height="9" rx="4" fill="#cdbfa9"/>
-          <!-- stretch zone -->
-          <path d="M100,176 C104,196 104,214 100,240" stroke="#E0A144" stroke-width="16" stroke-linecap="round" fill="none" opacity=".6"/>
-          <g stroke="#2a211b" stroke-linecap="round" stroke-linejoin="round" fill="none">
-            <line x1="90" y1="288" x2="40" y2="289" stroke-width="10"/>
-            <line x1="40" y1="289" x2="32" y2="296" stroke-width="7"/>
-            <line x1="90" y1="288" x2="92" y2="202" stroke-width="12"/>
-            <line x1="92" y1="202" x2="170" y2="204" stroke-width="12"/>
-            <line x1="170" y1="204" x2="172" y2="290" stroke-width="10"/>
-            <line x1="170" y1="294" x2="196" y2="295" stroke-width="7"/>
-            <line x1="92" y1="202" x2="94" y2="120" stroke-width="15"/>
-            <polyline points="94,130 116,166 140,198" stroke-width="7"/>
-          </g>
-          <circle cx="96" cy="98" r="15" fill="#2a211b"/>
-          <!-- tuck arrow: curls tailbone down/forward -->
-          <path d="M70,178 C60,198 66,222 84,232" stroke="#b4761e" stroke-width="3" fill="none" marker-end="url(#ab)"/>
-          <text x="8" y="172" font-size="12" font-weight="700" fill="#b4761e">① 尾骨往下捲</text>
-          <!-- squeeze glute -->
-          <circle cx="80" cy="210" r="7" fill="#b4761e"/>
-          <text x="4" y="258" font-size="12" font-weight="700" fill="#b4761e">② 夾緊屁股</text>
-          <line x1="40" y1="246" x2="76" y2="216" stroke="#b4761e" stroke-width="1.5"/>
-          <!-- belly in -->
-          <path d="M128,150 L112,150" stroke="#b4761e" stroke-width="3" marker-end="url(#ab)"/>
-          <text x="132" y="155" font-size="12" font-weight="700" fill="#b4761e">小腹收</text>
-          <text x="124" y="30" font-size="11" fill="#6b5a45">琥珀色＝有感覺的位置</text>
-        </svg>
-      </div>
+      <div class="demo"><video src="clips/hf_sidebend.mp4" autoplay muted loop playsinline preload="metadata"></video>
+      <div class="credit">真人示範：<a href="https://www.youtube.com/watch?v=Tfjnw7NO5Pc" target="_blank" rel="noopener">E3 Rehab Exercise Library</a>（0:01）</div></div>
       <div class="body">
-        <span class="tag">STEP 2</span><h3>先捲，再夾</h3>
-        <p><b>尾骨往下、往前捲</b>（骨盆後傾，像把褲子口袋往下塞），<b>小腹收</b>，再<b>夾緊後腳那側的屁股</b>。</p>
-        <p>很多人做到這一步，後腳那側<span class="hl">大腿根部前面</span>就已經有拉扯感了。有感覺就停在這裡，不用再往前推。</p>
-      </div>
-    </div>
-
-    <div class="card step">
-      <div class="fig">
-        <svg viewBox="0 0 240 310" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system,PingFang TC,sans-serif">
-          <defs>
-            <marker id="ac" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#b4761e"/></marker>
-          </defs>
-          <rect x="10" y="296" width="220" height="3" fill="#cdbfa9"/>
-          <rect x="66" y="288" width="44" height="9" rx="4" fill="#cdbfa9"/>
-          <!-- ghost of start -->
-          <g stroke="#cdbfa9" stroke-linecap="round" fill="none" stroke-dasharray="3 5">
-            <line x1="88" y1="288" x2="92" y2="202" stroke-width="3"/>
-            <line x1="92" y1="202" x2="94" y2="120" stroke-width="3"/>
-          </g>
-          <!-- stretch zone, longer -->
-          <path d="M116,150 C118,180 112,206 104,222 C98,236 96,250 94,262" stroke="#E0A144" stroke-width="16" stroke-linecap="round" fill="none" opacity=".6"/>
-          <g stroke="#2a211b" stroke-linecap="round" stroke-linejoin="round" fill="none">
-            <line x1="88" y1="288" x2="38" y2="289" stroke-width="10"/>
-            <line x1="38" y1="289" x2="30" y2="296" stroke-width="7"/>
-            <line x1="88" y1="288" x2="110" y2="208" stroke-width="12"/>
-            <line x1="110" y1="208" x2="182" y2="214" stroke-width="12"/>
-            <line x1="182" y1="214" x2="178" y2="290" stroke-width="10"/>
-            <line x1="178" y1="294" x2="204" y2="295" stroke-width="7"/>
-            <line x1="110" y1="208" x2="112" y2="124" stroke-width="15"/>
-            <polyline points="112,134 134,170 152,208" stroke-width="7"/>
-            <polyline points="112,130 108,88 112,46" stroke-width="7" stroke="#4a3c30"/>
-          </g>
-          <circle cx="114" cy="102" r="15" fill="#2a211b"/>
-          <!-- forward arrow -->
-          <path d="M62,214 L94,214" stroke="#b4761e" stroke-width="3" marker-end="url(#ac)"/>
-          <text x="6" y="240" font-size="12" font-weight="700" fill="#b4761e">③ 往前移一點</text>
-          <text x="124" y="54" font-size="12" font-weight="700" fill="#b4761e">④ 同側手舉高</text>
-          <text x="124" y="70" font-size="11" fill="#6b5a45">（可再往對側微側彎）</text>
-          <text x="132" y="140" font-size="11" fill="#6b5a45">上身依然垂直</text>
-        </svg>
-      </div>
-      <div class="body">
-        <span class="tag">STEP 3</span><h3>才推，手舉高</h3>
-        <p>不夠的話，<b>保持捲＋夾</b>，整個人連身體一起往前移幾公分，上半身依然垂直。要再加強，<b>後腳同側的手舉高</b>，身體往另一側微微側彎，拉得到腰大肌的上段。</p>
+        <span class="tag">加強</span><h3>同側手舉高，往對側側彎</h3>
+        <p>基本版做穩之後，<b>跪地那側的手舉高</b>，身體往另一側微微彎。拉到的是腰大肌的上段（接腰椎那一端），會覺得拉扯感從大腿根部延伸到腰側。</p>
       </div>
     </div>
 
@@ -259,54 +173,16 @@
 
 <!-- 03 -->
 <section>
-  <h2><span class="n">03</span>最常見的錯</h2>
-  <div class="vs">
-    <div class="card">
-      <div class="fig">
-        <svg viewBox="0 0 220 300" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system,PingFang TC,sans-serif">
-          <rect x="6" y="286" width="208" height="3" fill="#cdbfa9"/>
-          <g stroke="#2a211b" stroke-linecap="round" stroke-linejoin="round" fill="none">
-            <line x1="76" y1="278" x2="30" y2="279" stroke-width="10"/>
-            <line x1="76" y1="278" x2="104" y2="200" stroke-width="12"/>
-            <line x1="104" y1="200" x2="172" y2="206" stroke-width="12"/>
-            <line x1="172" y1="206" x2="168" y2="280" stroke-width="10"/>
-            <path d="M104,200 Q132,164 98,116" stroke-width="15"/>
-          </g>
-          <circle cx="94" cy="94" r="15" fill="#2a211b"/>
-          <!-- lumbar pinch -->
-          <polyline points="98,186 90,178 98,170 90,162" stroke="#c0492b" stroke-width="3" fill="none"/>
-          <text x="10" y="150" font-size="12" font-weight="700" fill="#c0492b">腰凹下去</text>
-          <text x="128" y="160" font-size="12" font-weight="700" fill="#c0492b">肚子挺出</text>
-          <g stroke="#c0492b" stroke-width="5" stroke-linecap="round">
-            <line x1="176" y1="30" x2="204" y2="58"/><line x1="204" y1="30" x2="176" y2="58"/>
-          </g>
-        </svg>
-      </div>
-      <div class="body"><span class="badge no">✕ 直接往前壓</span><br>拉到的是腰椎關節，髖屈肌沒動到，<b>等於在練骨盆前傾</b>。</div>
-    </div>
-    <div class="card">
-      <div class="fig">
-        <svg viewBox="0 0 220 300" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system,PingFang TC,sans-serif">
-          <rect x="6" y="286" width="208" height="3" fill="#cdbfa9"/>
-          <path d="M108,150 C110,178 104,204 96,222 C90,236 88,250 86,262" stroke="#E0A144" stroke-width="15" stroke-linecap="round" fill="none" opacity=".6"/>
-          <g stroke="#2a211b" stroke-linecap="round" stroke-linejoin="round" fill="none">
-            <line x1="80" y1="278" x2="34" y2="279" stroke-width="10"/>
-            <line x1="80" y1="278" x2="102" y2="202" stroke-width="12"/>
-            <line x1="102" y1="202" x2="170" y2="208" stroke-width="12"/>
-            <line x1="170" y1="208" x2="166" y2="280" stroke-width="10"/>
-            <line x1="102" y1="202" x2="104" y2="118" stroke-width="15"/>
-          </g>
-          <circle cx="106" cy="96" r="15" fill="#2a211b"/>
-          <circle cx="88" cy="206" r="6" fill="#b4761e"/>
-          <text x="118" y="150" font-size="12" font-weight="700" fill="#5f8a4a">上身垂直</text>
-          <text x="10" y="236" font-size="12" font-weight="700" fill="#5f8a4a">尾骨捲＋夾臀</text>
-          <polyline points="176,46 188,58 208,30" stroke="#5f8a4a" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-      </div>
-      <div class="body"><span class="badge yes">✓ 捲＋夾＋小推</span><br>拉扯感在<b>大腿根部前面</b>，腰不會酸。</div>
+  <h2><span class="n">03</span>最常見的錯：腰凹下去</h2>
+  <div class="card">
+    <div class="demo"><video src="clips/hf_arch_mistake.mp4" autoplay muted loop playsinline preload="metadata"></video>
+      <div class="credit">真人示範：<a href="https://www.youtube.com/watch?v=i-2e3jLHnT4&t=22s" target="_blank" rel="noopener">Brookbush Institute</a>（0:22）</div></div>
+    <div class="body">
+      <span class="tag no">錯誤示範</span><h3>前 3 秒正常，之後上身後仰、腰往前凹</h3>
+      <p>這是治療師刻意示範的錯誤：為了「拉更多」往前壓、上身後仰，結果拉到的是腰椎關節，髖屈肌反而沒動到，<b>等於在練骨盆前傾</b>。</p>
+      <p style="margin-top:6px"><b>判斷法：感覺在腰＝做錯；感覺在大腿根部前面＝做對。</b>沒感覺通常是骨盆沒捲。</p>
     </div>
   </div>
-  <p class="warn">判斷法：<b style="color:var(--ink2)">感覺在腰＝做錯；感覺在大腿根部前面＝做對。</b>沒感覺通常是骨盆沒捲。</p>
 </section>
 
 <!-- 04 -->
@@ -333,6 +209,8 @@
 <section>
   <h2><span class="n">05</span>自測：湯瑪斯測試</h2>
   <div class="card">
+    <div class="demo"><video src="clips/thomas.mp4" autoplay muted loop playsinline preload="metadata"></video>
+      <div class="credit">真人示範：<a href="https://www.youtube.com/watch?v=Q0XiUq9TJ2w" target="_blank" rel="noopener">sportsinjuryclinic.net</a>（0:04）</div></div>
     <div class="fig">
       <svg viewBox="0 0 340 210" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system,PingFang TC,sans-serif">
         <rect x="10" y="98" width="196" height="26" rx="4" fill="#d9cdb9"/>
@@ -367,7 +245,7 @@
       <ul>
         <li><b>大腿翹起、比床面高</b> → 髂腰肌緊</li>
         <li><b>大腿平貼，但小腿往前踢</b>，膝蓋彎不到 80–90° → 股直肌緊（加做下方「沙發伸展」）</li>
-        <li>左右各測一次，記下哪邊比較緊。每 4–8 週重測一次，看大腿翹的高度有沒有降。</li>
+        <li>片中示範者的大腿微微翹離床面、小腿往前踢，兩種緊都有一點。左右各測一次，記下哪邊比較緊。每 4–8 週重測一次，看大腿翹的高度有沒有降。</li>
       </ul>
     </div>
   </div>
@@ -377,49 +255,25 @@
 <section>
   <h2><span class="n">06</span>加強版：沙發伸展</h2>
   <div class="card">
-    <div class="fig">
-      <svg viewBox="0 0 240 318" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system,PingFang TC,sans-serif">
-        <rect x="10" y="296" width="220" height="3" fill="#cdbfa9"/>
-        <!-- wall / couch -->
-        <rect x="10" y="150" width="20" height="146" fill="#cdbfa9"/>
-        <rect x="34" y="288" width="40" height="9" rx="4" fill="#d9cdb9"/>
-        <!-- stretch zone: front of back thigh -->
-        <path d="M60,284 L102,216" stroke="#E0A144" stroke-width="8" stroke-linecap="round" fill="none" opacity=".85"/>
-        <g stroke="#2a211b" stroke-linecap="round" stroke-linejoin="round" fill="none">
-          <line x1="48" y1="288" x2="38" y2="200" stroke-width="10"/>
-          <line x1="38" y1="200" x2="36" y2="184" stroke-width="7"/>
-          <line x1="48" y1="288" x2="94" y2="212" stroke-width="12"/>
-          <line x1="94" y1="212" x2="168" y2="214" stroke-width="12"/>
-          <line x1="168" y1="214" x2="170" y2="290" stroke-width="10"/>
-          <line x1="170" y1="294" x2="196" y2="295" stroke-width="7"/>
-          <line x1="94" y1="212" x2="96" y2="128" stroke-width="15"/>
-          <polyline points="96,138 126,176 160,206" stroke-width="7"/>
-        </g>
-        <circle cx="98" cy="106" r="15" fill="#2a211b"/>
-        <circle cx="82" cy="218" r="6" fill="#b4761e"/>
-        <text x="40" y="174" font-size="11" font-weight="700" fill="#b4761e">小腿貼牆</text>
-        <text x="96" y="264" font-size="11" font-weight="700" fill="#b4761e">股直肌拉這裡</text>
-        <text x="120" y="140" font-size="11" fill="#6b5a45">上身慢慢立直</text>
-        <text x="36" y="312" font-size="10" fill="#6b5a45">膝蓋靠牆角，下面墊厚</text>
-      </svg>
-    </div>
+    <div class="demo"><video src="clips/couch.mp4" autoplay muted loop playsinline preload="metadata"></video>
+      <div class="credit">真人示範：<a href="https://www.youtube.com/watch?v=d9pOjXCKGN8&t=27s" target="_blank" rel="noopener">Tom Morrison</a>（0:27）</div></div>
     <div class="body">
-      <b>和半跪姿差在後腳小腿往上立</b>，貼著牆或沙發椅背，膝蓋彎到遠超過 90°。
-      <p style="margin-top:8px"><b>為什麼要這樣：</b>股直肌同時跨過髖關節和膝關節，要「膝蓋彎」加「髖伸直」兩頭一起拉才拉得到。普通半跪姿的膝蓋只彎 90°，股直肌只鬆了一半。</p>
+      <b>和半跪姿差在後腳小腿往上立</b>，貼著牆、沙發或椅子，膝蓋彎到遠超過 90°。片中用的是重訓椅。
+      <p style="margin-top:8px"><b>為什麼要這樣：</b>股直肌同時跨過髖關節和膝關節，要「膝蓋彎」加「髖伸直」兩頭一起拉才拉得到。普通半跪姿膝蓋只彎 90°，股直肌只鬆了一半。</p>
       <ul>
-        <li>後腳膝蓋跪在牆角或沙發前（下面墊厚一點），小腿往上貼牆，前腳往前踩</li>
-        <li>先上身前傾、手撐前腳膝蓋，比較不吃力</li>
-        <li>一樣先捲尾骨、夾屁股，再慢慢把上身立直</li>
-        <li>每邊 30–60 秒。太緊就把膝蓋離牆遠一點</li>
+        <li>後腳膝蓋跪在牆角或沙發前（下面墊厚一點），小腿往上貼，前腳往前踩</li>
+        <li>先上身前傾、手撐地或撐前腳膝蓋（片中前 5 秒），比較不吃力</li>
+        <li>一樣先捲尾骨、夾屁股，再慢慢把上身立直（片中後段）</li>
+        <li>每邊 30–60 秒。太緊就把膝蓋離牆遠一點，或停在前傾的位置</li>
       </ul>
-      <p style="margin-top:8px">湯瑪斯測試出現「小腿踢出」就加做這個。比半跪姿強很多，第一次做會很有感。</p>
+      <p style="margin-top:8px">湯瑪斯測試出現「小腿往前踢出」就加做這個。強度比半跪姿高很多，第一次做會很有感。</p>
     </div>
   </div>
 </section>
 
 </main>
 <footer>
-  簡化示意圖，不是精確解剖比例。鼠蹊部刺痛、髖部卡住或彈響，或下背痛會往腿麻，請找物理治療師。<br>
+  動作片段皆為真人示範，取自各頻道公開教學影片（標於片下）；水桶與湯瑪斯測試圖為簡化示意。鼠蹊部刺痛、髖部卡住或彈響，或下背痛會往腿麻，請找物理治療師。<br>
   <a href="./">← 回 Kenji 的居家健身菜單</a>
 </footer>
 </body>
